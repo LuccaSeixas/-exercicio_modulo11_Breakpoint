@@ -116,7 +116,7 @@ footer div{
     justify-content: space-between;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 640px){
     .container{
         max-width: 90%;
         width: 100%;
@@ -176,32 +176,16 @@ footer div{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 640px) and (max-width:1023px){
     .container{
         max-width: 90%;
-        width: 100%;
         font-size: 1.5em;
-    }
-    
-    header{
-        padding: 8px;
-    }
-    
-    header .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
     }
     
     header ul{
         display: block;
     }
     
-    header li{
-        list-style: none;
-        margin-bottom: 6px;
-    }
-
     .sobre-a-loja{
         display: block;
     }
@@ -215,40 +199,15 @@ footer div{
         margin-bottom: 6px;
     }
     
-    .produtos h2{
-        margin: 24px 0 8px;
-    }
-    
     .produtos ul{
-        display: block;
-        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 32px;
     }
     
     .produtos li{
+        width: 48%;
         margin: 0;
-        margin-bottom: 32px;
-        width: 100%;
-    }
-    
-    .produtos li IMG{
-        width: 100%;
-        margin-bottom: 8px;
-    }
-    
-    .produtos h3{
-        font-weight: 300;
-        font-size: 1em;
-        height: 40px;
-    }
-    
-    .price{
-        font-weight: bold;
-        font-size: 1em;
-    }
-
-    button{
-        width: 100%;
-        font-size: 1.0em;
-        margin: 6px 0 0;
     }
 }
